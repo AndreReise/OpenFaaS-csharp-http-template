@@ -1,0 +1,1 @@
+# OpenFaaS-csharp-http-template
