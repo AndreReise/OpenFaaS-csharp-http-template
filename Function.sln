@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{D9FB65DD-5B03-4708-98B6-CCB136A5261A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Root", "Source\Root\Root.csproj", "{CF89713E-10F4-412C-B202-109C5CEC17E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionHandler", "Source\FunctionHandler\FunctionHandler.csproj", "{16232B03-CCDD-466C-BCE5-82814A957DEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF89713E-10F4-412C-B202-109C5CEC17E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF89713E-10F4-412C-B202-109C5CEC17E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF89713E-10F4-412C-B202-109C5CEC17E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF89713E-10F4-412C-B202-109C5CEC17E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16232B03-CCDD-466C-BCE5-82814A957DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16232B03-CCDD-466C-BCE5-82814A957DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16232B03-CCDD-466C-BCE5-82814A957DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16232B03-CCDD-466C-BCE5-82814A957DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF89713E-10F4-412C-B202-109C5CEC17E6} = {D9FB65DD-5B03-4708-98B6-CCB136A5261A}
+		{16232B03-CCDD-466C-BCE5-82814A957DEE} = {D9FB65DD-5B03-4708-98B6-CCB136A5261A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E00F40EA-8527-4F1C-8122-0CDF5DB09922}
+	EndGlobalSection
+EndGlobal
